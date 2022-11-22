@@ -28,13 +28,6 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		
 		AdministratorDashboard result;
 		
-		//ControlCheck
-		Double 		 ratioOfTheoryTutorialWithBlahblah;
-		List<Object> averageCostOfBlahblah;
-		List<Object> deviationCostOfBlahblah;
-		List<Object> minimumCostOfBlahblah;
-		List<Object> maximumCostOfBlahblah;
-		
 		// Manage TheoryTutorial
 		Integer totalNumberOfTheoryTutorials;
 		List<Object> averageCostOfTheoryTutorials;
@@ -71,13 +64,6 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		List<Object> deviationBudgetOfDeniedHelpRequests;
 		List<Object> minimumBudgetOfDeniedHelpRequests;
 		List<Object> maximumBudgetOfDeniedHelpRequests;
-		
-		//ControlCheck
-		ratioOfTheoryTutorialWithBlahblah = this.repository.ratioOfTheoryTutorialWithBlahblah();
-		averageCostOfBlahblah = this.repository.averageCostOfBlahblah();
-		deviationCostOfBlahblah = this.repository.deviationCostOfBlahblah();
-		minimumCostOfBlahblah = this.repository.minimumCostOfBlahblah();
-		maximumCostOfBlahblah = this.repository.maximumCostOfBlahblah();
 		
 		
 		totalNumberOfTheoryTutorials = this.repository.totalNumberOfTheoryTutorials();
@@ -142,13 +128,6 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		result.setDeviationBudgetOfDeniedHelpRequests(deviationBudgetOfDeniedHelpRequests);
 		result.setMinimumBudgetOfDeniedHelpRequests(minimumBudgetOfDeniedHelpRequests);
 		result.setMaximumBudgetOfDeniedHelpRequests(maximumBudgetOfDeniedHelpRequests);
-		
-		//ControlCheck
-		result.setRatioOfTheoryTutorialWithBlahblah(ratioOfTheoryTutorialWithBlahblah);
-		result.setAverageCostOfBlahblah(averageCostOfBlahblah);
-		result.setDeviationCostOfBlahblah(deviationCostOfBlahblah);
-		result.setMinimumCostOfBlahblah(minimumCostOfBlahblah);
-		result.setMaximumCostOfBlahblah(maximumCostOfBlahblah);
 	
 		return result;
 	}
@@ -164,8 +143,7 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 									"totalNumberOfProposedHelpRequests","totalNumberOfAcceptedHelpRequests","totalNumberOfDeniedHelpRequests",
 									"averageBudgetOfProposedHelpRequests","deviationBudgetOfProposedHelpRequests","minimumBudgetOfProposedHelpRequests","maximumBudgetOfProposedHelpRequests",
 									"averageBudgetOfAcceptedHelpRequests","deviationBudgetOfAcceptedHelpRequests","minimumBudgetOfAcceptedHelpRequests","maximumBudgetOfAcceptedHelpRequests",
-									"averageBudgetOfDeniedHelpRequests","deviationBudgetOfDeniedHelpRequests","minimumBudgetOfDeniedHelpRequests","maximumBudgetOfDeniedHelpRequests",
-									"ratioOfTheoryTutorialWithBlahblah","averageCostOfBlahblah","deviationCostOfBlahblah","minimumCostOfBlahblah","maximumCostOfBlahblah"
+									"averageBudgetOfDeniedHelpRequests","deviationBudgetOfDeniedHelpRequests","minimumBudgetOfDeniedHelpRequests","maximumBudgetOfDeniedHelpRequests"
 									
 			);
 	}

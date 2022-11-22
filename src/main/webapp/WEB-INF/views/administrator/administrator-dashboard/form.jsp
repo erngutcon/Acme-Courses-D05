@@ -188,44 +188,6 @@
 	</tr>
 </table>
 
-<h4>CONTROL - CHECK</h4>
-<caption> CONTROL CHECK</caption>
-<table class="table table-sm">	
-	<tr>
-		<th scope="row"><acme:message
-				code="administrator.dashboard.form.label.ratioOfTheoryTutorialWithBlahblah" /></th>
-		<td><acme:print value="${ratioOfTheoryTutorialWithBlahblah}" /></td>
-	</tr>
-			<tr>
-		<th scope="row"><acme:message
-				code="administrator.dashboard.form.label.averageCostOfBlahblah" /></th>
-		<jstl:forEach var="prices" items="${averageCostOfBlahblah}">
-			<td><acme:print value="${prices}" /></td>
-		</jstl:forEach>
-	</tr>
-	<tr>
-		<th scope="row"><acme:message
-				code="administrator.dashboard.form.label.deviationCostOfBlahblah" /></th>
-		<jstl:forEach var="prices" items="${deviationCostOfBlahblah}">
-			<td><acme:print value="${prices}" /></td>
-		</jstl:forEach>
-	</tr>
-	<tr>
-		<th scope="row"><acme:message
-				code="administrator.dashboard.form.label.minimumCostOfBlahblah" /></th>
-		<jstl:forEach var="prices" items="${minimumCostOfBlahblah}">
-			<td><acme:print value="${prices}" /></td>
-		</jstl:forEach>
-	</tr>
-	<tr>
-		<th scope="row"><acme:message
-				code="administrator.dashboard.form.label.maximumCostOfBlahblah" /></th>
-		<jstl:forEach var="prices" items="${maximumCostOfBlahblah}">
-			<td><acme:print value="${prices}" /></td>
-		</jstl:forEach>
-	</tr>
-</table>
-
 <h2>
 	<acme:message
 		code="administrator.dashboard.form.title.total-number-of-tutorials" />

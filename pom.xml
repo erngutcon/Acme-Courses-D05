@@ -18,11 +18,11 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	
-	<name>Acme Courses D06</name>
+	<name>Acme Courses D04</name>
 	<description>This is a Acme-Recipes project for the students of Design &amp; Testing II.</description>
 
 	<groupId>Acme</groupId>	
-	<artifactId>Acme-Courses-D06</artifactId>
+	<artifactId>Acme-Courses-D04</artifactId>
 	<version>22.8</version>
 	<packaging>war</packaging>
 
