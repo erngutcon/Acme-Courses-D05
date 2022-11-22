@@ -40,5 +40,11 @@ administrator.dashboard.form.label.deviation-budget-of-denied-help-requests=Cost
 administrator.dashboard.form.label.minimum-budget-of-denied-help-requests=Coste minimo de solicitudes de ayuda rechazadas
 administrator.dashboard.form.label.maximum-budget-of-denied-help-requests =Coste maximo de solicitudes de ayuda rechazadas
 
+administrator.dashboard.form.label.ratioOfTheoryTutorialWithBlahblah = Ratio de Tutoriales Teóricos con Blahblahs
+administrator.dashboard.form.label.averageCostOfBlahblah = Media precio de Blahblah
+administrator.dashboard.form.label.deviationCostOfBlahblah = Desviacion precio de Blahblah
+administrator.dashboard.form.label.minimumCostOfBlahblah =  Minimo precio de Blahblah
+administrator.dashboard.form.label.maximumCostOfBlahblah = Maximo precio de Blahblah
+
 administrator.dashboard.form.title.total-number-of-tutorials = Numero total de tutoriales por tipo
 administrator.dashboard.form.title.total-number-of-help-requests = Numero total de solicitudes de ayuda por estado
